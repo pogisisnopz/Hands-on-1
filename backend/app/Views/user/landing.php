@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Animated Background -->
+    
     <div class="particles"></div>
 
-    <!-- Header -->
+    <
     <header>
         <nav>
             <a href="#" class="logo">Vanny Store</a>
@@ -24,7 +24,7 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+
     <section class="hero" id="home">
         <div class="hero-content">
             <h1>One stop shop of your favorite games</h1>
@@ -35,7 +35,7 @@
         </div>
     </section>
 
-    <!-- Featured Games -->
+   
     <section class="featured" id="games">
         <h2 class="section-title">Featured Games</h2>
         <div class="games-grid">
@@ -73,7 +73,7 @@
         </div>
     </section>
 
-    <!-- Stats Section -->
+  
     <section class="stats">
         <div class="stats-container">
             <div class="stat-item">
@@ -95,17 +95,24 @@
         </div>
     </section>
 
-    <!-- Footer -->
+   
     <footer>
         <div class="footer-content">
             <div class="footer-links">
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms of Service</a>
-                <a href="#">Contact</a>
+                <a href="mailto:support@vannystore.com">Contact</a>
                 <a href="#">Careers</a>
                 <a href="#">Blog</a>
             </div>
-            <p>&copy; 2025 Vanny. All rights reserved. Level up your gaming experience.</p>
+
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank">Facebook</a> |
+                <a href="https://discord.gg" target="_blank">Discord</a> |
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+
+            <p>&copy; 2025 Vanny Store. All rights reserved. Level up your gaming experience.</p>
         </div>
     </footer>
 
