@@ -30,7 +30,7 @@
             <h1>One stop shop of your favorite games</h1>
             <p>The game is over.</p>
             <a href="#games" class="cta-button">
-                🎮 Start Gaming Now
+                 Start Gaming Now
             </a>
         </div>
     </section>
@@ -40,33 +40,33 @@
         <h2 class="section-title">Featured Games</h2>
         <div class="games-grid">
             <div class="game-card">
-                <div class="game-image">🚀</div>
+                <div class="game-image"></div>
                 <h3 class="game-title">Grand Theft Auto V</h3>
-                <div class="game-price">$59.99</div>
+                <div class="game-price">P59.99</div>
                 <p class="game-description">Embark on an epic space adventure across galaxies. Build your fleet, explore alien worlds, and shape the destiny of the universe.</p>
                 <button class="buy-button">Add to Cart</button>
             </div>
             
             <div class="game-card">
-                <div class="game-image">⚔️</div>
+                <div class="game-image"></div>
                 <h3 class="game-title">Dragon's Realm</h3>
-                <div class="game-price">$49.99</div>
+                <div class="game-price">P49.99</div>
                 <p class="game-description">Master ancient magic and forge legendary weapons in this immersive fantasy RPG. Your choices determine the fate of kingdoms.</p>
                 <button class="buy-button">Add to Cart</button>
             </div>
             
             <div class="game-card">
-                <div class="game-image">🏎️</div>
+                <div class="game-image"></div>
                 <h3 class="game-title">Velocity Rush</h3>
-                <div class="game-price">$39.99</div>
+                <div class="game-price">P39.99</div>
                 <p class="game-description">Experience heart-pounding racing action with realistic physics and stunning visuals. Compete globally and climb the leaderboards.</p>
                 <button class="buy-button">Add to Cart</button>
             </div>
             
             <div class="game-card">
-                <div class="game-image">🧟</div>
+                <div class="game-image"></div>
                 <h3 class="game-title">Survival Protocol</h3>
-                <div class="game-price">$44.99</div>
+                <div class="game-price">P44.99</div>
                 <p class="game-description">Fight for survival in a post-apocalyptic world. Craft weapons, build shelters, and team up with friends in this intense co-op experience.</p>
                 <button class="buy-button">Add to Cart</button>
             </div>
