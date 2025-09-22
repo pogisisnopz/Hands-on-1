@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameVault - Your Ultimate Gaming Destination</title>
+    <title>Vanny Store - One stop shop of your favorite games</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
     <!-- Header -->
     <header>
         <nav>
-            <a href="#" class="logo">GameVault</a>
+            <a href="#" class="logo">Vanny Store</a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#games">Games</a></li>
@@ -27,8 +27,8 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-content">
-            <h1>Level Up Your Gaming</h1>
-            <p>Discover thousands of premium games, exclusive deals, and join millions of gamers in the ultimate digital playground. Your next adventure starts here.</p>
+            <h1>One stop shop of your favorite games</h1>
+            <p>The game is over.</p>
             <a href="#games" class="cta-button">
                 🎮 Start Gaming Now
             </a>
@@ -41,7 +41,7 @@
         <div class="games-grid">
             <div class="game-card">
                 <div class="game-image">🚀</div>
-                <h3 class="game-title">Stellar Odyssey</h3>
+                <h3 class="game-title">Grand Theft Auto V</h3>
                 <div class="game-price">$59.99</div>
                 <p class="game-description">Embark on an epic space adventure across galaxies. Build your fleet, explore alien worlds, and shape the destiny of the universe.</p>
                 <button class="buy-button">Add to Cart</button>
@@ -105,7 +105,7 @@
                 <a href="#">Careers</a>
                 <a href="#">Blog</a>
             </div>
-            <p>&copy; 2024 GameVault. All rights reserved. Level up your gaming experience.</p>
+            <p>&copy; 2025 Vanny. All rights reserved. Level up your gaming experience.</p>
         </div>
     </footer>
 
