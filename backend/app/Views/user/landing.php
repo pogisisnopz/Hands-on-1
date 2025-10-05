@@ -1,121 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanny Store - One stop shop of your favorite games</title>
+    <title>Vanny Store - Top Up Gaming Credits</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <div class="particles"></div>
 
-    <
-    <header>
-        <nav>
-            <a href="#" class="logo">Vanny Store</a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#games">Games</a></li>
-                <li><a href="#deals">Deals</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="#support">Support</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <h1>Vanny Store</h1>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#games" class="nav-link">Games</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
     </header>
 
 
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>One stop shop of your favorite games</h1>
-            <p>The game is over.</p>
-            <a href="#games" class="cta-button">
-                 Start Gaming Now
-            </a>
-        </div>
-    </section>
-
-   
-    <section class="featured" id="games">
-        <h2 class="section-title">Featured Games</h2>
-        <div class="games-grid">
-            <div class="game-card">
-                <div class="game-image"></div>
-                <h3 class="game-title">Grand Theft Auto V</h3>
-                <div class="game-price">P59.99</div>
-                <p class="game-description">Embark on an epic space adventure across galaxies. Build your fleet, explore alien worlds, and shape the destiny of the universe.</p>
-                <button class="buy-button">Add to Cart</button>
-            </div>
-            
-            <div class="game-card">
-                <div class="game-image"></div>
-                <h3 class="game-title">Dragon's Realm</h3>
-                <div class="game-price">P49.99</div>
-                <p class="game-description">Master ancient magic and forge legendary weapons in this immersive fantasy RPG. Your choices determine the fate of kingdoms.</p>
-                <button class="buy-button">Add to Cart</button>
-            </div>
-            
-            <div class="game-card">
-                <div class="game-image"></div>
-                <h3 class="game-title">Velocity Rush</h3>
-                <div class="game-price">P39.99</div>
-                <p class="game-description">Experience heart-pounding racing action with realistic physics and stunning visuals. Compete globally and climb the leaderboards.</p>
-                <button class="buy-button">Add to Cart</button>
-            </div>
-            
-            <div class="game-card">
-                <div class="game-image"></div>
-                <h3 class="game-title">Survival Protocol</h3>
-                <div class="game-price">P44.99</div>
-                <p class="game-description">Fight for survival in a post-apocalyptic world. Craft weapons, build shelters, and team up with friends in this intense co-op experience.</p>
-                <button class="buy-button">Add to Cart</button>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Top Up Your Favorite Games</h2>
+                <p class="hero-subtitle">Fast, Safe, and Secure Payment Method</p>
+                <a href="#games" class="btn btn-primary">Browse Games</a>
             </div>
         </div>
     </section>
 
-  
-    <section class="stats">
-        <div class="stats-container">
-            <div class="stat-item">
-                <span class="stat-number">50M+</span>
-                <span class="stat-label">Active Players</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">15K+</span>
-                <span class="stat-label">Games Available</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">200+</span>
-                <span class="stat-label">Countries</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">24/7</span>
-                <span class="stat-label">Customer Support</span>
+
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for games..." class="search-input">
+                <button class="search-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
             </div>
         </div>
     </section>
 
-   
-    <footer>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="mailto:support@vannystore.com">Contact</a>
-                <a href="#">Careers</a>
-                <a href="#">Blog</a>
-            </div>
 
-            <div class="footer-social">
-                <a href="https://facebook.com" target="_blank">Facebook</a> |
-                <a href="https://discord.gg" target="_blank">Discord</a> |
-                <a href="https://twitter.com" target="_blank">Twitter</a>
-            </div>
+    <section class="games-section" id="games">
+        <div class="container">
+            <h2 class="section-title">Popular Games</h2>
+            <div class="games-grid" id="gamesGrid">
 
-            <p>&copy; 2025 Vanny Store. All rights reserved. Level up your gaming experience.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Instant Delivery</h3>
+                    <p>Get your credits instantly after payment</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Payment</h3>
+                    <p>Safe and encrypted transactions</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💳</div>
+                    <h3>Multiple Payment</h3>
+                    <p>Various payment methods available</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Wide Selection</h3>
+                    <p>Support for popular mobile games</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vanny Store</h3>
+                    <p>Your trusted gaming top-up partner</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: vmnavarez@fit.edu.ph</p>
+                    <p>Phone: +63 9569673907</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vanny Store. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="css/script.js"></script>
 </body>
 </html>
